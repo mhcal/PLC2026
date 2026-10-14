@@ -1,0 +1,52 @@
+[
+  {
+    "id": "SKIP",
+    "expreg": "#.*|[ \\t]+"
+  },
+  {
+    "id": "VAR",
+    "expreg": "\\?[a-zA-Z0-9]+"
+  },
+  {
+    "id": "LANG",
+    "expreg": "@[a-zA-Z0-9]{2}"
+  },
+  {
+    "id": "STRING",
+    "expreg": "\"[^\"]*\""
+    
+  },
+  {
+    "id": "NUM",
+    "expreg": "\\d+"
+
+  },
+  {
+    "id": "LIMIT",
+    "expreg": "\\bLIMIT\\b"
+  },
+  {
+    "id": "SELECT",
+    "expreg": "\\bselect\\b"
+  },
+  {
+    "id": "WHERE",
+    "expreg": "\\bwhere\\b"
+  },
+  {
+    "id": "CONCEITO",
+    "expreg": "[a-zA-Z0-9]+(:[a-zA-Z0-9]*)?"
+  },
+  {
+    "id": "DELIMITADOR",
+    "expreg": "[{}.]"
+  },
+  {
+    "id": "NEWLINE",
+    "expreg": "\\n"
+  },
+  {
+    "id": "ERRO",
+    "expreg": "."
+  }
+]
